@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.challenge1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.challenge1__wrapper {
+    width: 779px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 50px;
+
+}
+
+.challenge1__wrapper a {
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--gray-default);
+    cursor: default;
+}
+
+.challenge1__wrapper a:hover {
+    color: var(--dark-color);
+}
+
+.challenge1__wrapper sup {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mouse__over__img {
+    position: absolute;    
+}

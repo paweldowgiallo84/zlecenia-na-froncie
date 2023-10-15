@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Sora";
+  src: url(./App/fonts/Sora.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'inter';
+  src: url(./App/fonts/Inter.ttf);
+}
+
+:root {
+  --text-color: #121212;
+  --gray-200: #e4e4e7;
+  --gray-50: #fafafa;
+  --gray-special: #222225;
+  --gray-300: #d4d4d8;
+  --gray-00-white: #fff;
+  --gray-default: #C6C6C6;
+  --dark-color: #1D1D1D;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
 }
