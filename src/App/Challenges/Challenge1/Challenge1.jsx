@@ -1,13 +1,6 @@
 import React, { useState } from "react";
 import "./Challenge1.css";
 
-import interiors from "./images/interior-design.png";
-import brand from "./images/handing-a-cup.png";
-import visual from "./images/ball-on-grid.png";
-import animation from "./images/fire.png";
-import bunch from "./images/flowers.png";
-import rumors from "./images/exhibition.png";
-
 import { LinksData } from "./LinksData";
 
 export const Challenge1 = () => {
